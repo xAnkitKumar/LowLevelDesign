@@ -6,7 +6,7 @@ public class SignatureNotification extends INotificationDecorator {
     }
 
     @Override
-    public String getNotification() {
-        return "Signed Notification:"+notification.getNotification();
+    public String getContent() {
+        return "Signed Notification:"+notification.getContent();
     }
 }

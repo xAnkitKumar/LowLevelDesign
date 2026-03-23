@@ -10,7 +10,7 @@ public class SimpleNotification implements INotification {
     }
 
      @Override
-     public String getNotification() {
+     public String getContent() {
         return text;
      }
 }

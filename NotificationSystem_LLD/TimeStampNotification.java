@@ -9,8 +9,8 @@ public class TimeStampNotification extends INotificationDecorator {
     }
 
     @Override
-    public String getNotification () {
-        return "[" + LocalDate.now() + "]" + notification.getNotification();
+    public String getContent () {
+        return "[" + LocalDate.now() + "]" + notification.getContent();
     }
     
 }

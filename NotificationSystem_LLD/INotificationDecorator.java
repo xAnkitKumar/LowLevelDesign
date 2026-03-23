@@ -9,7 +9,7 @@ public abstract class INotificationDecorator implements INotification {
 
     public String getNotification()
     {
-        return notification.getNotification();
+        return notification.getContent();
     }
 
 } 
